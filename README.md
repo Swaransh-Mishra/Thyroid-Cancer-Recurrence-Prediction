@@ -32,14 +32,16 @@ Try out the app here:
 ---
 
 
-Thyroid-Cancer-Recurrence-Prediction/
-├── app.py                          # Streamlit web application
-├── predictions.py                  # Core prediction logic
-├── tuned_random_forest_model.pkl   # Final trained ML model
-├── scaler.pkl                      # Scaler for feature normalization
-├── requirements.txt                # Project dependencies
-├── THYROID CANCER PREDICTION.ipynb # Notebook: EDA + model training
-├── assets/                         # Images (background, plots, etc.)
+## 📂 Project Structure  
+
+    Thyroid-Cancer-Recurrence-Prediction/
+    ├── app.py                          # Streamlit web application
+    ├── predictions.py                  # Core prediction logic
+    ├── tuned_random_forest_model.pkl   # Final trained ML model
+    ├── scaler.pkl                      # Scaler for feature normalization
+    ├── requirements.txt                # Project dependencies
+    ├── THYROID CANCER PREDICTION.ipynb # Notebook: EDA + model training
+    ├── assets/                         # Images (background, plots, etc.)
 
 ---
 
@@ -68,7 +70,7 @@ To ensure the model isn’t a black box, I used **SHAP (SHapley Additive exPlana
 ## 🔧 How to Run Locally  
 
 1️⃣ **Clone the repository**  
-```bash
+
 git clone https://github.com/Swaransh-Mishra/Thyroid-Cancer-Recurrence-Prediction.git
 cd Thyroid-Cancer-Recurrence-Prediction
 
@@ -85,8 +87,10 @@ This project was more than a coding exercise — it was an exploration into how 
 ⚕️ While this is not a replacement for medical judgment, it is a step toward data-driven healthcare that supports earlier interventions, personalized monitoring, and better outcomes.
 
 
-## 👤 Author  
-**Swaransh Mishra**  
+👤 Author
 
-- GitHub: [@Swaransh-Mishra](https://github.com/Swaransh-Mishra)  
-- LinkedIn: [Swaransh Mishra](https://www.linkedin.com/in/swaransh-mishra-a85123258/)  
+Swaransh Mishra
+
+GitHub: @Swaransh-Mishra
+
+LinkedIn: Swaransh Mishra
