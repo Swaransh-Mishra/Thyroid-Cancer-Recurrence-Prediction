@@ -31,16 +31,15 @@ Try out the app here:
 
 ---
 
-## 📂 Project Structure  
-
-├── app.py # Streamlit web application
-├── predictions.py # Core prediction logic
-├── tuned_random_forest_model.pkl # Final trained ML model
-├── scaler.pkl # Scaler used for feature normalization
-├── requirements.txt # Project dependencies
-├── THYROID CANCER PREDICTION.ipynb # Notebook: EDA, preprocessing, model training
-├── assets/ # Images (background, plots, etc.)
-
+```plaintext
+Thyroid-Cancer-Recurrence-Prediction/
+├── app.py                          # Streamlit web application
+├── predictions.py                  # Core prediction logic
+├── tuned_random_forest_model.pkl   # Final trained ML model
+├── scaler.pkl                      # Scaler for feature normalization
+├── requirements.txt                # Project dependencies
+├── THYROID CANCER PREDICTION.ipynb # Notebook: EDA + model training
+├── assets/                         # Images (background, plots, etc.)
 
 ---
 
