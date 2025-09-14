@@ -7,4 +7,3 @@ shap==0.46.0
 streamlit==1.38.0
 joblib==1.4.2
 Pillow==10.4.0
-Python 3.13
