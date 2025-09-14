@@ -31,7 +31,7 @@ Try out the app here:
 
 ---
 
-```plaintext
+
 Thyroid-Cancer-Recurrence-Prediction/
 ├── app.py                          # Streamlit web application
 ├── predictions.py                  # Core prediction logic
