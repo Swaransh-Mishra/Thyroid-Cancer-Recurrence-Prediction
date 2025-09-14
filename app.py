@@ -47,10 +47,11 @@ def set_bg_from_local(file_path):
                 color: white; /* Ensures the sidebar title is white */
             }}
             .main .block-container {{
-                 background-color: rgba(255, 255, 255, 0.85);
+                 background-color: rgba(0, 0, 0, 0.6); /* dark transparent background */
+                 color: white; /* ensures all text is readable */
                  padding: 2rem;
                  border-radius: 10px;
-                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
             }}
             h1, h2, h3 {{
                 color: #003366; /* A professional dark blue color */
@@ -154,4 +155,5 @@ elif page == "Project Analysis & Insights":
         st.image('shap_plot.png', caption='SHAP Summary Plot: Explaining Feature Impact')
     except FileNotFoundError:
         st.warning("SHAP plot image ('shap_plot.png') not found. Please add it to the folder.")
+
 
