@@ -73,7 +73,7 @@ To ensure the model isn’t a black box, I used **SHAP (SHapley Additive exPlana
 
 1. **Clone the Repository**  
    Open your terminal and run:  
-   `git clone https://github.com/Swaransh-Mishra/Thyroid-Cancer-Recurrence-Prediction.git`  
+   `git clone https://github.com/your-username/Thyroid-Cancer-Recurrence-Prediction.git`  
    `cd Thyroid-Cancer-Recurrence-Prediction`  
 
 2. **Create a Virtual Environment (Recommended)**  
